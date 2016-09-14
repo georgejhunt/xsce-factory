@@ -1,0 +1,8 @@
+#!/bin/bash -x
+
+IIAB=/usr/local/lib/python2.7/dist-packages/iiab
+cp ../osm-fixes/etc.iiab.conf /etc/iiab.conf
+cp -f ../osm-fixes/map_search.py $IIAB
+cp -f ../osm-fixes/map.html $IIAB/static/
+cp -f ../osm-fixes/l.control.geosearch.js $IIAB/static/lib/leaflet/geosearch/
+   
